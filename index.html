@@ -46,6 +46,25 @@
       <div w3-include-html="/header.html"></div>
             <h1>Sheet Tom Clan</h1>
               <a href="https://github.com/sheettomclan/sheettomclan.github.io/tree/master">View on Github</a>
+              <html>
+  <body>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "cracked_sheettom",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+      });
+    </script>
+  </body>
+</html>
             <div w3-include-html="/footer.html" class="footer"></div>
       <script>
   includeHTML();
