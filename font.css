@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BurbankBigCondensed-Bold';
+  src: url('BurbankBigCondensed-Bold.eot');
+  src: url('BurbankBigCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+       url('BurbankBigCondensed-Bold.svg#BurbankBigCondensed-Bold') format('svg'),
+       url('BurbankBigCondensed-Bold.ttf') format('truetype'),
+       url('BurbankBigCondensed-Bold.woff') format('woff'),
+       url('BurbankBigCondensed-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
